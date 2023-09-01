@@ -4,11 +4,10 @@
     padding: 0;
     
 }
+.body{
+    background-color:black
 
-body {
-    background-color: black;
 }
-
 .navbarpreto {
     width: 100%;
     height: 90px;
@@ -157,60 +156,56 @@ body {
     
 }
 
-/* CEHGAJHSDKAS */
 
-
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-    margin-top: 35px;
-  }
-.forms1 {
+.border-0 {
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    color: white;
     padding: 8px;
     margin-top: 15px;
     display: block;
     margin-bottom: 10px;
-    background-color: #D9D9D9;
+    background-color: #000000;
     border-radius: 10px;
     font-size: 13px;
     border: none;
-    width: 300px;
+}
 
-  }
+h1 {
+    font-family: 'Signika', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
 
-  .forms1 textarea {
-    color: rgb(0, 0, 0)
-  }
- 
-  h2 {
+.fs-6 {
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.col-sm-3 {
+    font-family: 'Signika', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-sm-9 {
     font-family: 'Signika', sans-serif;
     font-size: 16px;
     color: white;
     
-  }
+}
 
-  .button {
-    padding: 7px 20px;
-    background-color: black;
+ .col-sm-8{
+ font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     color: white;
-    font-family: 'Indie Flower', cursive;
-    border: 3px solid #FF7A00;
-    cursor: pointer;
-    border-radius: 105px;
-    /* Arredonda os botões */
-    width: 90px;
-    position: relative;
-    left: 100px;
-    margin-top: 10px;
-  }
-
-  .button textarea {
-    color: black;
-    resize: vertical;
-
-  }
-
-
-  
+    text-align: center;
+    margin-top: 20px;
+}
